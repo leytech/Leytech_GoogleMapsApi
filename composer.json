@@ -1,0 +1,13 @@
+{
+  "name": "leytech/leytech_googlemapsapi",
+  "type": "magento-module",
+  "description": "Module to set Google Maps API keys within the Google API admin settings.",
+  "homepage": "https://github.com/leytech/Leytech_GoogleMapsApi",
+  "require": {
+    "php": ">=5.4.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra":{
+    "magento-root-dir": "src/"
+  }
+}
