@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package    Leytech_GoogleMapsApi
+ * @author     Chris Nolan (chris@leytech.co.uk)
+ * @copyright  Copyright (c) 2017 Leytech
+ * @license    https://opensource.org/licenses/MIT  The MIT License  (MIT)
+ */
+-->
+<config>
+    <sections>
+        <google>
+            <groups>
+                <leytech_mapsapi translate="label title" module="leytech_googlemapsapi">
+                    <label>Google Maps API</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <frontend_api_key translate="label">
+                            <label>Frontend API Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[<a href="https://console.developers.google.com/apis" target="_blank">Google API Dashboard</a>]]></comment>
+                        </frontend_api_key>
+                        <backend_api_key translate="label">
+                            <label>Backend API Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[<a href="https://console.developers.google.com/apis" target="_blank">Google API Dashboard</a>]]></comment>
+                        </backend_api_key>
+                    </fields>
+                </leytech_mapsapi>
+            </groups>
+        </google>
+    </sections>
+</config>

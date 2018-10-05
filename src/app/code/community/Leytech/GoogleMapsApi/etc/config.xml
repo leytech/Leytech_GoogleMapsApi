@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package    Leytech_GoogleMapsApi
+ * @author     Chris Nolan (chris@leytech.co.uk)
+ * @copyright  Copyright (c) 2017 Leytech
+ * @license    https://opensource.org/licenses/MIT  The MIT License  (MIT)
+ */
+-->
+<config>
+    <modules>
+        <Leytech_GoogleMapsApi>
+            <version>1.0.0</version>
+        </Leytech_GoogleMapsApi>
+    </modules>
+    <global>
+        <helpers>
+            <leytech_googlemapsapi>
+                <class>Leytech_GoogleMapsApi_Helper</class>
+            </leytech_googlemapsapi>
+        </helpers>
+    </global>
+</config>
