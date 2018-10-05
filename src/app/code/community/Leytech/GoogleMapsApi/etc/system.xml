@@ -66,8 +66,6 @@
                 </settings>
             </groups>
         </leytech_googlemapsapi>
-    </sections>
-    <sections>
         <google>
             <groups>
                 <leytech_mapsapi translate="label title" module="leytech_googlemapsapi">
